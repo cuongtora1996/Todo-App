@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "borderBottomColor": "#AEAEAE",
+      "borderBottomWidth": 0.5,
+      "flexDirection": "row",
+      "marginHorizontal": 12,
+      "paddingVertical": 12,
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "flexShrink": 1,
+        "marginRight": 12,
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "borderColor": "#000",
+          "borderWidth": 2,
+          "height": 24,
+          "justifyContent": "center",
+          "width": 24,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "height": 12,
+              "width": 12,
+            },
+            Object {
+              "backgroundColor": "#FFF",
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+  <Text
+    style={
+      Object {
+        "color": "#000",
+        "flexGrow": 1,
+        "fontSize": 16,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    Item 1
+  </Text>
+  <View
+    accessible={true}
+    focusable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignSelf": "flex-end",
+        "flexShrink": 1,
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#CC3300",
+          "borderRadius": 8,
+          "padding": 8,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Delete
+      </Text>
+    </View>
+  </View>
+</View>
+`;
